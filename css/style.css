@@ -1,0 +1,118 @@
+html
+{
+    font-size: 100%;
+}
+
+#ctu
+{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.intro
+{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-image: url("../image/introC.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat    ;
+    color: rgb(255, 255, 255);
+}
+
+.intro #introb
+{ 
+    height:250px;
+    width: 610px;
+    text-align: left;
+    font-size: 300%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 100px;
+}
+
+.members
+{
+    margin-top: 3px;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.members #meet
+{   
+    padding-top: 70px;
+    text-align: center;
+    font-size: 130%;
+}
+.members #meet p
+{
+    margin-top: 3px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.member
+{
+    text-align: center;
+    float: left;
+    margin: 50px;
+}
+
+.members #mem1
+{
+    margin-left: 190px;
+}
+
+.avatar
+{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   margin-bottom: 20px;
+}
+
+#introC
+{
+    text-align: center;
+}
+
+.project
+{
+font-size: 20px;
+width: 100%;
+height: 800px;
+position: relative;
+text-align: center;
+}
+
+.projectintro
+{
+    margin-bottom: 60px;
+}
+
+.petfood
+{
+    width: 60%;
+    height: 400px;
+    position: relative;
+    left: 0%;
+    right: 0;
+    margin: auto;
+    background-color: lightcoral;
+    color: aliceblue;
+}
+.food
+{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.provider
+{
+    position: absolute;
+    top: 30%;
+    right: 55px;
+}
